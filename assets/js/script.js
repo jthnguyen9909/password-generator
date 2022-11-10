@@ -2,7 +2,8 @@
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var numbers = "0123456789";
-var specialChar = "!@#$%^&*()-_=+,./<>?;:[]{}";
+var specialChar = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+specialChar += '"';
 
 // Reference to document button
 var generateBtn = document.querySelector("#generate");
@@ -74,7 +75,6 @@ function writePassword() {
     "These are the characters available to your password according to your preferences."
   );
   console.log(passwordChars);
-
 
   //for loop for adding a random character from list of chosen character types to password string
   var passwordCharsLength = passwordChars.length;
