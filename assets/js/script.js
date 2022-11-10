@@ -7,7 +7,7 @@ specialChar += '"';
 
 // Reference to document button
 var generateBtn = document.querySelector("#generate");
-
+var textSelect = document.getElementById("password");
 // Password generation function
 function writePassword() {
   var passwordGen = "";
@@ -94,5 +94,10 @@ function writePassword() {
   window.alert("Your password has successfully been generated below.");
 }
 
+var selectText = function () {
+  textSelect.select();
+};
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+textSelect.addEventListener("click", selectText);
