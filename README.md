@@ -10,4 +10,4 @@ This password generator can be used by clicking on the generate password button 
 
 https://jthnguyen9909.github.io/password-generator/
 
-![Alt text](/assets/images/deployment-screenshot.jpeg?raw=true "password_generator-screenshot")
+![Alt text](/assets/images/deployment-screenshot.png?raw=true "password_generator-screenshot")
